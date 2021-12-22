@@ -30,8 +30,13 @@ var server = http.createServer(function(req,res){
        res.end(a);
       }
 
+      else if(q.pathname === "/" && req.method === "GET"){
+
+        res.end("Welcome");
+      }
+
 });
 
-server.listen(PORT,
+server.listen(port,
   () => console.log("server is listening")
 );
