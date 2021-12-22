@@ -8,6 +8,10 @@
     
   },
 
+  "dependencies": {
+    "mongodb": "^3.6.8"
+  },
+
   "engines": {
     "node": "16.8.0"
   },
